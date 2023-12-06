@@ -66,7 +66,7 @@ public class ticTacToe {
                 }
             } while(playing);
             finished = safeInput.getYNConfirm(scanner, "Would you like to play again?");
-        } while (!finished);
+        } while (finished);
     }
 
     //method catalogue
